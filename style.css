@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    text-align: justify;
+}
+h1{
+    font-size: 40px;
+}
+.namecolour{
+    color: #FF6200;
+}
+section{
+    display: flex;
+}
+.profile{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.hire-me-button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(#FF6200, #FDB777);
+    padding: 10px 20px;
+    border-radius: 9px;
+
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
