@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .profile{
     width: 60%;
@@ -31,3 +32,25 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream{
+    display: flex;
+
+}
+.dreamprofile{
+    width: 60%;
+    padding-right: 150px;
+    padding-top: 30px;
+
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume-button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(#ff3399, #ff66cc);
+    padding: 10px 20px;
+    border-radius: 9px;
