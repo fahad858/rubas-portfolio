@@ -9,11 +9,15 @@ h1{
 .namecolour{
     color: #FF6200;
 }
-.introsection{
+.flexible-container{
     display: flex;
     margin-bottom: 80px;
 }
-.profile{
+.introsection{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.introdiv{
     width: 60%;
     padding-left: 30px;
     padding-right: 20px;
@@ -28,24 +32,17 @@ h1{
     border-radius: 9px;
 
 }
-.introsection{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-.dreamsection{
-    display: flex;
 
-}
-.dreamprofile{
-    width: 50%;
-    padding-right: 150px;
-    padding-top: 30px;
-
-}
 .dreamsection{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: top right;
+}
+.dreamdiv{
+    width: 50%;
+    padding-right: 150px;
+    
+
 }
 .resume-button{
     text-decoration: none;
@@ -55,3 +52,22 @@ h1{
     padding: 10px 20px;
     border-radius: 9px;
 }
+    
+.experiencediv{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray ;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.experiencesection{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+
+
+
