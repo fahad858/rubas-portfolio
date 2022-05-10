@@ -1,29 +1,37 @@
-body{
+.flexible-container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     text-align: justify;
 }
-h1{
+
+h1 {
     font-size: 40px;
+
 }
-.namecolour{
+
+.namecolour {
     color: #FF6200;
 }
-.flexible-container{
-    display: flex;
-    margin-bottom: 80px;
-}
-.introsection{
+
+.introsection {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    background-position: top left;
 }
-.introdiv{
+
+.introdiv {
     width: 60%;
     padding-left: 30px;
     padding-right: 20px;
     padding-top: 10px;
 }
-.hire-me-button{
+
+.hire-me-button {
     text-decoration: none;
     font-weight: 700;
     color: white;
@@ -33,19 +41,21 @@ h1{
 
 }
 
-.dreamsection{
+.dreamsection {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: top right;
 }
-.dreamdiv{
+
+.dreamdiv {
     width: 50%;
     padding-right: 150px;
     padding-bottom: 60px;
-    
+
 
 }
-.resume-button{
+
+.resume-button {
     text-decoration: none;
     font-weight: 700;
     color: white;
@@ -53,12 +63,12 @@ h1{
     padding: 10px 20px;
     border-radius: 9px;
 }
-    
-.experiencediv{
+
+.experiencediv {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 80px;
-    box-shadow: 10px 10px 40px gray ;
+    box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
@@ -66,26 +76,26 @@ h1{
     border-radius: 10px;
 
 }
-.experiencesection{
+
+.experiencesection {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    padding-left: 80px;
+    padding-left: 40px;
 }
-#pro{
-    border-left: 7px solid ;
+
+#pro {
+    border-left: 7px solid;
     border-image: linear-gradient(#FF6200, #FDB777);
     border-image-slice: 1;
 }
-#baby{
-    border-left: 7px solid ;
+
+#baby {
+    border-left: 7px solid;
     border-image: linear-gradient(#0000cc, #00ffff);
     border-image-slice: 1;
 
 }
+
 footer p {
     text-align: center;
 }
-
-
-
-
